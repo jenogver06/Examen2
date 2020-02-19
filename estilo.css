@@ -3,9 +3,10 @@ body{
 }
 
 h1.fuente1{
-    padding: 10px 10px;
+    padding: 20px;
+    margin: 0%;
     background-color: lightsalmon;
-    border: 5px solid;
+    border: 0px solid;
     font-family: 'Zhi Mang Xing', cursive;
     color: rgb(238, 75, 75);
 }
@@ -44,8 +45,13 @@ table.tabla1{
     border: #b2b2b2 10px groove;
 }
 
-td{
+tbody.td {
+    margin: 15px;
+    padding: 15px;
+}
 
+colgroup {
+    border: black 5px solid;
 }
 
 section.color3{
